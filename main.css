@@ -59,3 +59,18 @@ font-weight: 400;
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.shop {
+    margin-top: 2rem;
+}
+
+/*shop content*/
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+}
